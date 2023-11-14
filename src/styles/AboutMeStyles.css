@@ -1,0 +1,47 @@
+
+
+.about-me {
+    background:linear-gradient(135deg, #434343 0%,#000000 100%);
+    padding: 50px 20px;
+    text-align: center;
+    height: 1000px;
+  }
+  
+  .about-content {
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .typewriter{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+ 
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+ 
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+  
+  .about-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 1.2em;
+    color: white;
+  }
+  

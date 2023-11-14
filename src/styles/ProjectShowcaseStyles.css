@@ -1,0 +1,40 @@
+
+
+.project-showcase {
+    background:linear-gradient(135deg, #434343 0%,#000000 100%);
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+    height: 1000px;
+  }
+  
+  .project-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .project-item {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background:linear-gradient(135deg, #46464b 0%,#212125 100%);
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-list :hover
+  {
+    width: 500px;
+    transition-duration: 1s;
+  }
+  
+  .project-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .project-item p {
+    color: white;
+  }
+  
